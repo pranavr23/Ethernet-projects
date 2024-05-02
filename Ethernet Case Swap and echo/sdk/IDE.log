@@ -1,0 +1,324 @@
+09:36:36 DEBUG : Logs will be stored at 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/IDE.log'.
+09:36:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ST\Desktop\myVivado\Testprojects\project_ethtest\sdk\temp_xsdb_launch_script.tcl
+09:36:41 INFO  : Registering command handlers for Vitis TCF services
+09:36:42 INFO  : Platform repository initialization has completed.
+09:36:44 INFO  : XSCT server has started successfully.
+09:36:44 INFO  : Successfully done setting XSCT server connection channel  
+09:36:44 INFO  : plnx-install-location is set to ''
+09:36:44 INFO  : Successfully done query RDI_DATADIR 
+09:36:44 INFO  : Successfully done setting workspace for the tool. 
+09:37:34 INFO  : Result from executing command 'getProjects': design_1_wrapper
+09:37:34 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+09:37:36 WARN  : An unexpected exception occurred in the module 'platform project logging'
+09:37:38 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+09:37:49 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+09:38:33 INFO  : Result from executing command 'getProjects': design_1_wrapper
+09:38:33 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+09:38:47 INFO  : Checking for BSP changes to sync application flags for project 'output'...
+09:39:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:39:09 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF22E0A' is selected.
+09:39:09 INFO  : 'jtag frequency' command is executed.
+09:39:09 INFO  : Context for 'APU' is selected.
+09:39:09 INFO  : System reset is completed.
+09:39:12 INFO  : 'after 3000' command is executed.
+09:39:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF22E0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF22E0A-13722093-0"}' command is executed.
+09:39:13 INFO  : Device configured successfully with "C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit"
+09:39:13 INFO  : Context for 'APU' is selected.
+09:39:13 INFO  : Hardware design and registers information is loaded from 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:39:13 INFO  : 'configparams force-mem-access 1' command is executed.
+09:39:13 INFO  : Context for 'APU' is selected.
+09:39:13 INFO  : Sourcing of 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/psinit/ps7_init.tcl' is done.
+09:39:14 INFO  : 'ps7_init' command is executed.
+09:39:14 INFO  : 'ps7_post_config' command is executed.
+09:39:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:39:14 INFO  : The application 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:39:14 INFO  : 'configparams force-mem-access 0' command is executed.
+09:39:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF22E0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF22E0A-13722093-0"}
+fpga -file C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+09:39:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:39:14 INFO  : 'con' command is executed.
+09:39:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+09:39:14 INFO  : Launch script is exported to file 'C:\Users\ST\Desktop\myVivado\Testprojects\project_ethtest\sdk\output_system\_ide\scripts\systemdebugger_output_system_standalone.tcl'
+09:41:09 INFO  : Disconnected from the channel tcfchan#3.
+09:56:10 DEBUG : Logs will be stored at 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/IDE.log'.
+09:56:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ST\Desktop\myVivado\Testprojects\project_ethtest\sdk\temp_xsdb_launch_script.tcl
+09:56:13 INFO  : XSCT server has started successfully.
+09:56:13 INFO  : Successfully done setting XSCT server connection channel  
+09:56:13 INFO  : plnx-install-location is set to ''
+09:56:13 INFO  : Successfully done setting workspace for the tool. 
+09:56:14 INFO  : Platform repository initialization has completed.
+09:56:16 INFO  : Registering command handlers for Vitis TCF services
+09:56:16 INFO  : Successfully done query RDI_DATADIR 
+09:57:08 INFO  : Checking for BSP changes to sync application flags for project 'output'...
+09:57:15 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+09:59:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:59:05 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF22E0A' is selected.
+09:59:05 INFO  : 'jtag frequency' command is executed.
+09:59:05 INFO  : Context for 'APU' is selected.
+09:59:05 INFO  : System reset is completed.
+09:59:08 INFO  : 'after 3000' command is executed.
+09:59:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF22E0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF22E0A-13722093-0"}' command is executed.
+09:59:09 INFO  : Device configured successfully with "C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit"
+09:59:09 INFO  : Context for 'APU' is selected.
+09:59:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+09:59:09 INFO  : 'configparams force-mem-access 1' command is executed.
+09:59:09 INFO  : Context for 'APU' is selected.
+09:59:09 INFO  : Sourcing of 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/psinit/ps7_init.tcl' is done.
+09:59:10 INFO  : 'ps7_init' command is executed.
+09:59:10 INFO  : 'ps7_post_config' command is executed.
+09:59:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:59:10 INFO  : The application 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf' is downloaded to processor 'ps7_cortexa9_0'.
+09:59:10 INFO  : 'configparams force-mem-access 0' command is executed.
+09:59:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF22E0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF22E0A-13722093-0"}
+fpga -file C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+09:59:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+09:59:10 INFO  : 'con' command is executed.
+09:59:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+09:59:10 INFO  : Launch script is exported to file 'C:\Users\ST\Desktop\myVivado\Testprojects\project_ethtest\sdk\output_system\_ide\scripts\systemdebugger_output_system_standalone.tcl'
+10:01:43 INFO  : Disconnected from the channel tcfchan#2.
+11:33:09 DEBUG : Logs will be stored at 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/IDE.log'.
+11:33:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ST\Desktop\myVivado\Testprojects\project_ethtest\sdk\temp_xsdb_launch_script.tcl
+11:33:14 INFO  : Registering command handlers for Vitis TCF services
+11:33:14 INFO  : XSCT server has started successfully.
+11:33:14 INFO  : plnx-install-location is set to ''
+11:33:14 INFO  : Successfully done setting XSCT server connection channel  
+11:33:15 INFO  : Successfully done setting workspace for the tool. 
+11:33:15 INFO  : Successfully done query RDI_DATADIR 
+11:33:15 INFO  : Platform repository initialization has completed.
+11:35:22 INFO  : Checking for BSP changes to sync application flags for project 'output'...
+11:35:29 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+11:35:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:35:58 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF22E0A' is selected.
+11:35:58 INFO  : 'jtag frequency' command is executed.
+11:35:58 INFO  : Context for 'APU' is selected.
+11:35:58 INFO  : System reset is completed.
+11:36:01 INFO  : 'after 3000' command is executed.
+11:36:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF22E0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF22E0A-13722093-0"}' command is executed.
+11:36:03 INFO  : Device configured successfully with "C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit"
+11:36:03 INFO  : Context for 'APU' is selected.
+11:36:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+11:36:03 INFO  : 'configparams force-mem-access 1' command is executed.
+11:36:03 INFO  : Context for 'APU' is selected.
+11:36:03 INFO  : Sourcing of 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/psinit/ps7_init.tcl' is done.
+11:36:03 INFO  : 'ps7_init' command is executed.
+11:36:03 INFO  : 'ps7_post_config' command is executed.
+11:36:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:36:04 INFO  : The application 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:36:04 INFO  : 'configparams force-mem-access 0' command is executed.
+11:36:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF22E0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF22E0A-13722093-0"}
+fpga -file C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:36:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:36:04 INFO  : 'con' command is executed.
+11:36:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:36:04 INFO  : Launch script is exported to file 'C:\Users\ST\Desktop\myVivado\Testprojects\project_ethtest\sdk\output_system\_ide\scripts\systemdebugger_output_system_standalone.tcl'
+11:36:36 INFO  : Disconnected from the channel tcfchan#2.
+11:36:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:36:36 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF22E0A' is selected.
+11:36:36 INFO  : 'jtag frequency' command is executed.
+11:36:36 INFO  : Context for 'APU' is selected.
+11:36:36 INFO  : System reset is completed.
+11:36:39 INFO  : 'after 3000' command is executed.
+11:36:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF22E0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF22E0A-13722093-0"}' command is executed.
+11:36:41 INFO  : Device configured successfully with "C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit"
+11:36:41 INFO  : Context for 'APU' is selected.
+11:36:43 INFO  : Hardware design and registers information is loaded from 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+11:36:43 INFO  : 'configparams force-mem-access 1' command is executed.
+11:36:43 INFO  : Context for 'APU' is selected.
+11:36:43 INFO  : Sourcing of 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/psinit/ps7_init.tcl' is done.
+11:36:43 INFO  : 'ps7_init' command is executed.
+11:36:43 INFO  : 'ps7_post_config' command is executed.
+11:36:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:36:44 INFO  : The application 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:36:44 INFO  : 'configparams force-mem-access 0' command is executed.
+11:36:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF22E0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF22E0A-13722093-0"}
+fpga -file C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:36:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:36:44 INFO  : 'con' command is executed.
+11:36:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:36:44 INFO  : Launch script is exported to file 'C:\Users\ST\Desktop\myVivado\Testprojects\project_ethtest\sdk\output_system\_ide\scripts\systemdebugger_output_system_standalone.tcl'
+11:39:34 INFO  : Checking for BSP changes to sync application flags for project 'output'...
+11:41:32 INFO  : Checking for BSP changes to sync application flags for project 'output'...
+11:41:37 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+11:41:54 INFO  : Disconnected from the channel tcfchan#3.
+11:41:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:41:54 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF22E0A' is selected.
+11:41:54 INFO  : 'jtag frequency' command is executed.
+11:41:54 INFO  : Context for 'APU' is selected.
+11:41:55 INFO  : System reset is completed.
+11:41:58 INFO  : 'after 3000' command is executed.
+11:41:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF22E0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF22E0A-13722093-0"}' command is executed.
+11:41:59 INFO  : Device configured successfully with "C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit"
+11:41:59 INFO  : Context for 'APU' is selected.
+11:42:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+11:42:01 INFO  : 'configparams force-mem-access 1' command is executed.
+11:42:01 INFO  : Context for 'APU' is selected.
+11:42:01 INFO  : Sourcing of 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/psinit/ps7_init.tcl' is done.
+11:42:01 INFO  : 'ps7_init' command is executed.
+11:42:01 INFO  : 'ps7_post_config' command is executed.
+11:42:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:42:02 INFO  : The application 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:42:02 INFO  : 'configparams force-mem-access 0' command is executed.
+11:42:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF22E0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF22E0A-13722093-0"}
+fpga -file C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:42:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:42:02 INFO  : 'con' command is executed.
+11:42:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:42:02 INFO  : Launch script is exported to file 'C:\Users\ST\Desktop\myVivado\Testprojects\project_ethtest\sdk\output_system\_ide\scripts\systemdebugger_output_system_standalone.tcl'
+11:44:46 INFO  : Checking for BSP changes to sync application flags for project 'output'...
+11:44:51 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+11:45:02 INFO  : Disconnected from the channel tcfchan#5.
+11:45:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:45:03 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF22E0A' is selected.
+11:45:03 INFO  : 'jtag frequency' command is executed.
+11:45:03 INFO  : Context for 'APU' is selected.
+11:45:03 INFO  : System reset is completed.
+11:45:06 INFO  : 'after 3000' command is executed.
+11:45:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF22E0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF22E0A-13722093-0"}' command is executed.
+11:45:07 INFO  : Device configured successfully with "C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit"
+11:45:07 INFO  : Context for 'APU' is selected.
+11:45:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+11:45:09 INFO  : 'configparams force-mem-access 1' command is executed.
+11:45:09 INFO  : Context for 'APU' is selected.
+11:45:09 INFO  : Sourcing of 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/psinit/ps7_init.tcl' is done.
+11:45:10 INFO  : 'ps7_init' command is executed.
+11:45:10 INFO  : 'ps7_post_config' command is executed.
+11:45:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:45:10 INFO  : The application 'C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:45:10 INFO  : 'configparams force-mem-access 0' command is executed.
+11:45:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF22E0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF22E0A-13722093-0"}
+fpga -file C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:45:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:45:10 INFO  : 'con' command is executed.
+11:45:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:45:10 INFO  : Launch script is exported to file 'C:\Users\ST\Desktop\myVivado\Testprojects\project_ethtest\sdk\output_system\_ide\scripts\systemdebugger_output_system_standalone.tcl'
+11:49:01 INFO  : Disconnected from the channel tcfchan#7.

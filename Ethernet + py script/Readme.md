@@ -1,0 +1,3 @@
+This project sets up a TCP echo server. It listens for incoming connections, receives data size requests from clients, fills a buffer with test data accordingly, and sends it back. It handles data transfer and connection management callbacks for the server operation.
+
+The Python script connects to the TCP echo server, requests a specific number of bytes, receives data in packets, verifies received data against expected values, and prints any errors. It ensures data integrity during transmission from the server.

@@ -1,0 +1,10 @@
+11:44:48 **** Incremental Build of configuration Debug for project output_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 51527 C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_ps7_cortexa9_0 C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output_system/Debug/system.bif --bitstream C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/Debug/output.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2023.1/bin/bootgen  -image C:/Users/ST/Desktop/myVivado/Testprojects/project_ethtest/sdk/output_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+11:44:57 Build Finished (took 9s.722ms)
+
